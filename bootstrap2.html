@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+        body{padding: 0px;
+        margin: 0px;
+        }
+        
+  .div{
+  background-color: rgb(64, 170, 129);
+  width: 100%;
+  padding: 100px;
+  
+        }
+
+        .div h1{
+            text-align: center;
+        }
+        .div1{
+            background-color: rgb(56, 42, 42);
+            width: 100%;
+            display: flex;
+            justify-content: left;
+            gap: 40px;
+
+            padding: 20px;
+        }
+        .div1 a{
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+        }
+
+        .div1 a:hover{
+            background-color: white;
+
+        }
+ 
+h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-left: -30px;
+}
+.about{
+    background-color: whitesmoke;
+    
+    height: 950px;
+    margin-top: -20px;
+    padding: 20px;
+    flex: 30%;
+}
+h2{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+img{
+    width:100%;
+    height: 70px;
+    margin-left: 20px;
+}
+.title{
+ 
+    
+   
+    height: 940px;
+    background-color: white;
+    flex: 70%;
+    
+    margin-top: -20px;
+    
+}
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+
+}
+   
+
+@media screen and (max-width: 800px) {
+  .row, .div1 {
+    flex-direction: column;
+
+    
+    
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="div">
+        <h1>MY WEBSITE</h1>
+    </div>
+    <div class="div1">
+        
+            <a href="">LINK</a>
+            <a href="">LINK</a>
+            <a href="">LINK</a>
+            <a href="">LINK</a>
+       
+ </div>
+    <div class="row">
+    <div class="about">
+        <h2>About Me</h2>
+        <p style="padding-left: 25px;">Photo of me:</p>
+        <img src="images/marco.jpeg" style="margin-left: 20px; width: 100%; height: 200px;">
+        <h3 style="font-weight: 100; margin-left: 20px; ">Marco Larsen is the CEO and Principal for PUBLIC, NYC; a strategic communications firm in New York City.</h3>
+        <h3 style="margin-left: 20px;">Main of an average man</h3>
+        <img src="images/joker.jpeg"> 
+        <br><br>
+        <img src="images/InFrame_1616344931769.jpg">
+        <br>,<br>
+        <img src="images/barbie.jpeg">  
+    </div>
+    <div class="title">
+        <h2 style="margin-top: 1px;">TITLE HEADING</h2>
+        <p style="margin-left: 22px;">Title description, March 26,2024</p>
+        <img src="images/cars.jpeg" style="width: 100%; height: 200px;">
+        <h3 style="margin-left: 18px; "> Cars are great</h3>
+        <h3 style="margin-left: 18px; font-weight: 100;">A car, or an automobile, is a motor vehicle with wheels. Most definitions of cars state that they run primarily on roads, 
+            seat one to eight people, have four wheels, and mainly transport people, not cargo.</h3>
+            <h2>TITLE HEADING</h2>
+            <p style="margin-left: 22px;">Title description, March 26,2024</p>
+            <img src="images/cars.jpeg" style="width: 95%; height: 200px;">
+            <h3 style="margin-left: 18px; font-weight: 100;">A car, or an automobile, is a motor vehicle with wheels. Most definitions of cars state that they run primarily on roads, 
+                seat one to eight people, have four wheels, and mainly transport people, not cargo.</h3>
+
+    </div>
+    </div>
+<div>
+    <h3 style=" text-align: center; font-size:xx-large ;padding-top: 60px;">footer</h3>
+</div>
+</body>
+</html>
